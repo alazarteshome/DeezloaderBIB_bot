@@ -854,10 +854,7 @@ def checking():
 			clear_recorded_dir()
 			tg_bot_api.start_polling()
 
-if len(argv) == 1:
-	tmux_session = None
-else:
-	tmux_session = create_tmux()
+tmux_session = None
 
 check_thread = magicThread(target = checking)
 check_thread.start()
