@@ -19,7 +19,7 @@ logger_names = [
 
 warning_for_banning = 4
 user_session = "my_account"
-user_errors = None
+user_errors = 1394998550
 bunker_channel = None
 owl_channel = None
 db_name = "deez_bot.db"
