@@ -56,7 +56,7 @@ from inlines.inline_keyboards import (
 
 check_config_bot()
 
-mode_bot = show_menu()
+mode_bot = 2
 bot_chat_id = tg_bot_api.bot.id
 bot = tg_bot_api.bot
 banned_ids = get_banned_ids()
