@@ -39,7 +39,7 @@ from utils.utils_users_bot import (
 from utils.utils import (
 	is_supported_link, get_download_dir_size,
 	check_config_bot, clear_download_dir,
-	clear_recorded_dir, show_menu, create_tmux
+	clear_recorded_dir
 )
 
 from telegram.ext import (
