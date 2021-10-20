@@ -3,7 +3,7 @@
 from utils.utils import check_config_bot, show_menu
 
 check_config_bot()
-mode_bot = show_menu()
+mode_bot = 2
 
 from sys import argv
 from hashlib import md5
